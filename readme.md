@@ -1,4 +1,8 @@
-# ilk önce instagram takipçi sayfasına gidip takipçileri açıp (en aşağı kadar giderek bütün takipçilerin yüklenmesini sağlayın) konsola şu kodu yazın.
+# Instagram Takipçi Kontrol
+Sizin takip ettiğiniz ama sizi takip etmeyen kullanıcıları çıkarmak için script.
+
+# Kullanış
+İlk önce instagram takipçi sayfasına gidip takipçileri açıp (en aşağı kadar giderek bütün takipçilerin yüklenmesini sağlayın) konsola şu kodu yazın.
 
 ```javascript
 var element = document.querySelectorAll('._ap3a._aaco._aacw._aacx._aad7._aade');
@@ -12,4 +16,5 @@ console.log(arr);
 # Kopyalanan arrayı `.\followers.json` dosyasına yapıştırın.
 
 # Aynı işlemi takip edilenler içinde tekrarlayın ve bu sefer arrayı `.\follow.json` dosyasına yapıştırın.
+
 # Artık kodu çalıştırındığınızda sizin takip ettiğiniz fakat sizi geri takip etmeyen bütün hesaplar konsolda yazıyor :)
