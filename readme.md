@@ -12,9 +12,10 @@ element.forEach(element => arr.push(element.innerHTML));
 console.log(arr);
 ```
 
-# Bu kod sayesinde takipçilerin hepsi bir array içerisinde konsola yazdırılacak. Daha sonra sağ tık "nesneyi kopyala" butonu ile arrayı konsoldan kopyalayın.
-# Kopyalanan arrayı `.\followers.json` dosyasına yapıştırın.
+Bu kod sayesinde takipçilerin hepsi bir array içerisinde konsola yazdırılacak. Daha sonra sağ tık "nesneyi kopyala" butonu ile arrayı konsoldan kopyalayın.
+Kopyalanan arrayı `.\followers.json` dosyasına yapıştırın.
 
-# Aynı işlemi takip edilenler içinde tekrarlayın ve bu sefer arrayı `.\follow.json` dosyasına yapıştırın.
+Aynı işlemi takip edilenler içinde tekrarlayın ve bu sefer arrayı `.\follow.json` dosyasına yapıştırın.
 
-# Artık kodu çalıştırındığınızda sizin takip ettiğiniz fakat sizi geri takip etmeyen bütün hesaplar konsolda yazıyor :)
+Artık kodu çalıştırındığınızda sizin takip ettiğiniz fakat sizi geri takip etmeyen bütün hesaplar konsolda yazıyor :)
+
